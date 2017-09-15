@@ -16,6 +16,7 @@ public class Test {
 		System.out.print(">");
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
+		sc.close();
 		// check if input is in correct format (i.e. 10,10)
 	    Pattern r = Pattern.compile("-?\\d+,-?\\d+");
 	    Matcher m = r.matcher(input);
