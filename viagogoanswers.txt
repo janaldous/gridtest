@@ -1,2 +1,0 @@
-viagogo
--	There are a max of 999 Events as Events.id only has 3 digits-	The user can search nearestEvents() from a coordinate not in the grid (i.e. -11,11 in a -10 to 10 by -10 to 10 grid)-	The grid has equal number of negative and positive coordinates for both its length and width. (i.e. cannot have -10 to 11 for x axis or y axis, must be -10 to 10)
