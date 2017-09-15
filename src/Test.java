@@ -9,7 +9,7 @@ public class Test {
 		Grid grid = new Grid(10, 10);
 		
 		//make seed data
-		grid.makeSeedData(99);
+		grid.makeSeedData(20);
 				
 		//search 5 nearest events
 		System.out.println("Please input coordinates:");
